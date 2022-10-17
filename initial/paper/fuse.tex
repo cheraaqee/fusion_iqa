@@ -10,6 +10,7 @@
 \usepackage{amssymb}
 \usepackage{authblk}
 \renewcommand*{\Authand}{ و }
+\renewcommand*{\Authands}{ و }
 \usepackage{xepersian}
 \settextfont{XB Niloofar}
 \newcommand{\mykeyword}[1]{\par\textbf{واژه‌های کلیدی:}{#1}}
@@ -20,10 +21,16 @@
 % \author[1]{آرمین احمدزاده \thanks{a.ahmadzadeh@ipm.ir}}
 % \author[2]{پوریا چراغی \thanks{cheraaqee@ipm.ir}}
 
-\author{آرمین احمدزاده \thanks{a.ahmadzadeh@ipm.ir}}
-\author{پوریا چراغی \thanks{cheraaqee@ipm.ir}}
-% \affil[1,2]{مرکز پردازش سریع، پژوهشکده علوم کامپیوتر، پژوهشگاه دانش‌های بنیادی}
-\affil{مرکز پردازش سریع، پژوهشکده علوم کامپیوتر، پژوهشگاه دانش‌های بنیادی}
+\author[1]{آرمین احمدزاده \thanks{a.ahmadzadeh@ipm.ir}}
+\author[2]{پوریا چراغی \thanks{cheraaqee@ipm.ir}}
+\author[3]{حسین معتمدنیا \thanks{h.motamednia@ipm.ir}}
+\author[4]{محمد مینویی \thanks{mohammad.minouei@dfki.de}}
+\author[5]{آزاده منصوری \thanks{a\_mansouri@khu.ac.ir}}
+\author[6]{احمد محمودی ازناوه \thanks{a\_mahmoudi@sbu.ac.ir}}
+\affil[1,2,3]{مرکز پردازش سریع، پژوهشکده علوم کامپیوتر، پژوهشگاه دانش‌های بنیادی، تهران، ایران}
+\affil[4]{گروه علوم کامپیوتر، دانشگاه صنعتی کایزرسلاترن، کایزرسلاترن، آلمان}
+\affil[5]{گروه مهندسی برق و کامپیوتر، دانشکده فنی، دانشگاه خوارزمی، تهران، ایران}
+\affil[6]{پژوهشکده مطالعات سایبری، دانشگاه شهید بهشتی، تهران، ایران}
 \date{}
 
 \maketitle
@@ -216,7 +223,7 @@ $M$ و $N$ در~(\ref{eq:mse})، ابعاد تصاویر هستند.
 		\caption{}
 		\label{fig:nsi_2}
 	\end{subfigure}
-	\hfill
+	\\
 	\begin{subfigure}{0.24\textwidth}
 		\includegraphics[width=\textwidth]{SCI30.jpg}
 		\caption{}
@@ -311,12 +318,13 @@ $LBPSI(.,.)$ \cite{alaei2016document}، یک روش مرجع کامل، برای
 \end{figure}
 \subsection{عدم تعمیم‌پذیری به تخریب‌های مختلف} \label{sec:gen_dst}
 با افزایش دقتِ $SQMS(., .)$، روی کُلِّ مجموعه‌داده، انتظار می‌رود که ترکیب‌ها بهبودی مشابه را روی تک تکِ تخریب‌ها نیز داشته باشند. میزان دقت مدل‌ها روی تخریب‌ها طبق~\ref{sec:perdist} محاسبه گردیده و بهره‌وری آن نسبت به $SQMS(.,.)$ در شکل~\ref{fig:res_per_distortion} نشان داده می‌شود.
-\begin{figure}
+\begin{figure*}
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{per_distortion_SIQAD}
 		\caption{}
 		\label{fig:res_per_distortion_SIQAD}
-	\end{subfigure} \\
+	\end{subfigure} 
+	\hfill
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{per_distortion_SCID}
 		\caption{}
@@ -324,7 +332,7 @@ $LBPSI(.,.)$ \cite{alaei2016document}، یک روش مرجع کامل، برای
 	\end{subfigure}
 	\caption{نتیجه‌ی ارزیابی به ازای هر تخریب. نتایج \lr{SIQAD} در (آ) و \lr{SCID} در (ب) قابل ملاحظه هستند. بهره‌وری به ازای هر تخریب، با رنگ متفاوتی مشخص شده است.}
 	\label{fig:res_per_distortion}
-\end{figure}
+\end{figure*}
 می‌بینیم که نه تنها همه‌ی مدل‌ها عملکرد مشابهی نداشتند، بلکه در بسیاری از موارد، بهره‌وری منفی بوده است. کاملاً منطقی است که یکی از علّت‌ها را ضعف بردارهای ویژگی بدانیم. فارغ از این نظریه، مسئله‌ی دیگری وجود دارد که باید در نظر گرفته شود و آن \emph{فراعامل‌ها} هستند. 
 
 همانطور که در انتهای~\ref{sec:trainSVR} گفته شد، بهینه‌سازیِ $c$ و $\gamma$ با اعتبارسنجیِ متقابلِ ۱۰۰-لایه صورت می‌گیرد:
@@ -350,12 +358,13 @@ $LBPSI(.,.)$ \cite{alaei2016document}، یک روش مرجع کامل، برای
 	\label{eq:parama}
 \end{equation}
 تابعِ $cv(.,.,.,.)$، چهار  ورودی دارد که عبارت‌اند از: مجموعه‌ی آموزش، فراعامل‌های بهینه، مجموعه‌ی آزمون و تعداد لایه‌های اعتبارسنجیِ متقابل. این تابع میانه‌ی $\text{SROCC}$های محاسبه‌شده در ۱۰۰۰ مرتبه را بر می‌گرداند.
-\begin{figure}
+\begin{figure*}
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{per_distortion_hyper_SIQAD}
 		\caption{}
 		\label{fig:res_per_distortion_SIQAD_hyper}
-	\end{subfigure} \\
+	\end{subfigure} 
+	\hfill
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{per_distortion_hyper_SCID}
 		\caption{}
@@ -363,7 +372,7 @@ $LBPSI(.,.)$ \cite{alaei2016document}، یک روش مرجع کامل، برای
 	\end{subfigure}
 	\caption{نتیجه‌ی ارزیابی به ازای هر تخریب بعد از بهینه‌سازی فراعامل‌ها روی هر یک از تخریب‌ها. نتایج \lr{SIQAD} در (آ) و \lr{SCID} در (ب) قابل ملاحظه هستند.}
 	\label{fig:res_per_dist_hyper}
-\end{figure}
+\end{figure*}
 
 شکل~\ref{fig:res_per_dataset} نتایج را برای آزمایش زیر نشان می‌دهد:
 \begin{equation}
@@ -437,12 +446,13 @@ $LBPSI(.,.)$ \cite{alaei2016document}، یک روش مرجع کامل، برای
 	\label{eq:siqad_scid_dst}
 \end{equation}
 $\text{dst}$ در روابط بالا، عضوِ مجموعه‌ی تخریب‌هایی است که در \lr{SCID} و \lr{SIQAD} مشترک هستند. می‌بینیم که نتایج بهترِ آزمون تعمیم‌پذیری برای مجموعه‌ی \lr{SCID} هم به تک تکِ تخریب‌های آن قابل تعمیم نیست.
-\begin{figure}
+\begin{figure*}
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{cross_SCID_SIQAD_dst}
 		\caption{}
 		\label{fig:scid_siqad_dst}
-	\end{subfigure} \\
+	\end{subfigure} 
+	\hfill
 	\begin{subfigure}{0.47\textwidth}
 		\includegraphics[width=\textwidth]{cross_SIQAD_SCID_dst}
 		\caption{}
@@ -450,7 +460,7 @@ $\text{dst}$ در روابط بالا، عضوِ مجموعه‌ی تخریب‌
 	\end{subfigure}
 	\caption{نتایجِ ارزیابی هر تخریب، وقتی مجموعه‌داده‌های آموزش و آزمون متفاوت‌اند. (آ): برای $\text{SCID}\rightarrow \text{SIQAD}$ و (ب) برای $\text{SIQAD}\rightarrow \text{SCID}$}
 	\label{fig:cross_dst}
-\end{figure}
+\end{figure*}
 \section{جمع‌بندی} \label{sec:conclusion}
 در این مقاله بردارهای پشتیبان را، طبق روش رایج، برای اَکْتْ آموزش دادیم. دیدیم که وقتی گزارش عملکرد به روش رایج انجام می‌شود، نقش فراعامل‌ها هم باید بازتاب گردد. یک فرمول‌بندی ارائه شد که این موارد را لحاظ نماید. تأثیرِ بهینه‌سازیِ فراعامل‌ها را مشاهده کردیم و دیدیم که به این مسئله در آزمایش‌های ارزیابی کیفیت پرداخته نمی‌شود. محدود بودنِ تصاویر مجموعه‌داده‌ها، نگرانی در موردِ تعمیم‌پذیری مدل‌ها به تصاویر دنیای واقعی را بیشتر می‌کند. مخصوصاً وقتی که تخریب‌های مجموعه‌داده‌ها مصنوعی بوده و ممکن است با تخریب‌های طبیعی متفاوت باشند. شاید بهتر باشد که نحوه‌ی بهینه‌سازیِ فراعامل‌های مدل‌های یادگیری نیز در گزارش‌های عملکرد مقالات تشریح گردد. آزمایش‌های انجام‌شده با کُدهای موجود در \href{https://github.com/cheraaqee/fusion\_iqa}{https://github.com/cheraaqee/fusion\_iqa} قابلِ شبیه‌سازی هستند.
 \bibliographystyle{ieeetr-fa}
