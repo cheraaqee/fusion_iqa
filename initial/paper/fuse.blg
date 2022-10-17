@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fuse.aux
+The style file: ieeetr-fa.bst
+Database file #1: ref.bib
+Repeated entry---line 268 of file ref.bib
+ : @inproceedings{alaei2016document
+ :                                 ,
+I'm skipping whatever remains of this entry
+-- ieeetr-fa.bst version 0.9 (2015/05/09) 
+-- This is a BibTeX style for XePersian: http://www.parsilatex.com
+
+Done.
+You've used 30 entries,
+            2349 wiz_defined-function locations,
+            788 strings with 10268 characters,
+and the built_in function-call counts, 10314 in all, are:
+= -- 983
+> -- 325
+< -- 0
++ -- 120
+- -- 90
+* -- 652
+:= -- 1261
+add.period$ -- 36
+call.type$ -- 30
+change.case$ -- 32
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 478
+empty$ -- 844
+format.name$ -- 90
+if$ -- 2818
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 296
+newline$ -- 219
+num.names$ -- 30
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 365
+stack$ -- 0
+substring$ -- 741
+swap$ -- 226
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 0
+while$ -- 95
+width$ -- 32
+write$ -- 400
+(There was 1 error message)
