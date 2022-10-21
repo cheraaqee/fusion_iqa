@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  17 OCT 2022 13:59
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  21 OCT 2022 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,16 +1079,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Missing character: There is no ‖ (U+2016) in font XB Niloofar/OT:script=latn;la
-nguage=dflt;script=arab;mapping=persian-tex-text;!
-
-Overfull \hbox (9.53323pt too wide) in paragraph at lines 37--37
- [][][][] 
- []
-
-Missing character: There is no ‖ (U+2016) in font XB Niloofar/OT:script=latn;la
-nguage=dflt;script=arab;mapping=persian-tex-text;!
-
 Overfull \hbox (0.76881pt too wide) in paragraph at lines 55--56
 []\TU/XBNiloofar(0)/m/n/10 در صورت تخریبِ بیش از حدِّ کیفیت، این مورد را به الگ
 وریتم فشرده‌کننده[]
@@ -1103,13 +1093,13 @@ Underfull \hbox (badness 1221) in paragraph at lines 103--176
 سخ[]
  []
 
-[2]
+
 Underfull \hbox (badness 1264) in paragraph at lines 179--180
 []\TU/XBNiloofar(0)/m/n/10 طبق روش رایج برای بکارگیری []\TU/lmroman10-regular(0
 )/m/n/10 SVR[] \TU/XBNiloofar(0)/m/n/10 در اَکْتْ [[]]، ابتدا باید[]
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 []\TU/XBNiloofar(0)/m/n/10 وقتی افرازِ تصادفیِ ۸۰-‏۲۰ را انجام دهیم، برخی اعضای
 []
@@ -1148,12 +1138,11 @@ Underfull \hbox (badness 1314) in paragraph at lines 310--319
 ی، بین نمرات[]
  []
 
-[4]
 File: per_distortion_SIQAD.jpg Graphic file (type bmp)
 <per_distortion_SIQAD.jpg>
 File: per_distortion_SCID.jpg Graphic file (type bmp)
 <per_distortion_SCID.jpg>
-
+[4]
 Underfull \hbox (badness 1661) in paragraph at lines 348--349
 []\TU/XBNiloofar(0)/m/n/10 یک زیرمجموعه از نمونه‌های مجموعه‌داده‌ی $[]$ را مشخص
 []
@@ -1175,14 +1164,13 @@ Underfull \hbox (badness 5217) in paragraph at lines 359--376
 ه‌های[]
  []
 
-[5] [6]
 File: cross_whole.jpg Graphic file (type bmp)
 <cross_whole.jpg>
 File: cross_SCID_SIQAD_dst.jpg Graphic file (type bmp)
 <cross_SCID_SIQAD_dst.jpg>
 File: cross_SIQAD_SCID_dst.jpg Graphic file (type bmp)
 <cross_SIQAD_SCID_dst.jpg>
- (./fuse.bbl
+(./fuse.bbl
 Underfull \hbox (badness 1675) in paragraph at lines 465--4
 []\TU/XBNiloofar(0)/m/n/10 کردیم و دیدیم که به این مسئله در آزمایش‌های ارزیابی 
 کیفیت[]
@@ -1194,7 +1182,7 @@ Underfull \hbox (badness 1371) in paragraph at lines 465--4
 که[]
  []
 
-
+[5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
 [][]\TU/lmroman10-regular(0)/m/n/10 CISCO, “Cisco annual internet re-[]
  []
@@ -1260,24 +1248,22 @@ Underfull \hbox (badness 1014) in paragraph at lines 243--246
 ]
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 261--264
 [][]\TU/lmroman10-regular(0)/m/n/10 A. Shokrollahi, B. M.-N. Maybodi, and[]
  []
 
-) [9
-
-] (./fuse.aux)
+) [8] (./fuse.aux)
 Package rerunfilecheck Info: File `fuse.out' has not changed.
 (rerunfilecheck)             Checksum: 91D2EA6C7799988AB4BE10D08687D45E;3176.
  ) 
 Here is how much of TeX's memory you used:
- 27465 strings out of 476127
- 572581 string characters out of 5808345
- 1005276 words of memory out of 5000000
- 47732 multiletter control sequences out of 15000+600000
+ 27453 strings out of 476127
+ 572449 string characters out of 5808345
+ 1009276 words of memory out of 5000000
+ 47720 multiletter control sequences out of 15000+600000
  476315 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,14n,91p,1315b,847s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,15n,91p,1315b,847s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on fuse.pdf (9 pages).
+Output written on fuse.pdf (8 pages).
