@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  21 OCT 2022 22:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.9)  23 OCT 2022 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,19 +1067,19 @@ Package hyperref Info: Link coloring OFF on input line 19.
 \@outlinefile=\write4
 \openout4 = `fuse.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.76881pt too wide) in paragraph at lines 55--56
+Overfull \hbox (0.76881pt too wide) in paragraph at lines 57--58
 []\TU/XBNiloofar(0)/m/n/10 در صورت تخریبِ بیش از حدِّ کیفیت، این مورد را به الگ
 وریتم فشرده‌کننده[]
  []
@@ -1088,25 +1088,28 @@ Overfull \hbox (0.76881pt too wide) in paragraph at lines 55--56
 
 
 ]
-Underfull \hbox (badness 1221) in paragraph at lines 103--176
+Underfull \hbox (badness 1221) in paragraph at lines 105--178
 [][]\TU/XBNiloofar(0)/m/n/10 یک مجموعه‌داده‌ی اَکْتْ، شامل یک سری تصویر مرجع، ن
 سخ[]
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 179--180
+Underfull \hbox (badness 1264) in paragraph at lines 181--182
 []\TU/XBNiloofar(0)/m/n/10 طبق روش رایج برای بکارگیری []\TU/lmroman10-regular(0
 )/m/n/10 SVR[] \TU/XBNiloofar(0)/m/n/10 در اَکْتْ [[]]، ابتدا باید[]
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 []\TU/XBNiloofar(0)/m/n/10 وقتی افرازِ تصادفیِ ۸۰-‏۲۰ را انجام دهیم، برخی اعضای
 []
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 193--195
+Underfull \hbox (badness 2790) in paragraph at lines 195--197
 []$\OML/cmm/m/it/10 DS[]$ \TU/XBNiloofar(0)/m/n/10 مربوط به صحنه‌هایی هستند که 
 در مجموعه‌ی[]
  []
@@ -1120,20 +1123,20 @@ File: SCI30.jpg Graphic file (type bmp)
 File: SCI33.jpg Graphic file (type bmp)
 <SCI33.jpg>
 [3]
-Underfull \hbox (badness 6910) in paragraph at lines 265--266
+Underfull \hbox (badness 6910) in paragraph at lines 267--268
 [][]\TU/XBNiloofar(0)/m/n/10 علاوه بر ([][][]۶[][][])، می‌توانیم ترکیب‌های دیگر
 ی، مثل $[]\OMS/cmsy/m/n/10 0 \OT1/cmr/m/n/10 =$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 [][]\TU/XBNiloofar(0)/b/n/12 موفقیت ترکیبِ روش‌ها، در هر یک از[]
  []
 
 File: per_dataset.jpg Graphic file (type bmp)
 <per_dataset.jpg>
 
-Underfull \hbox (badness 1314) in paragraph at lines 310--319
+Underfull \hbox (badness 1314) in paragraph at lines 312--321
 []\TU/XBNiloofar(0)/m/n/10 که در قسمت [][][]۲.‏۱[][][] گفته شد، این ضریب همبستگ
 ی، بین نمرات[]
  []
@@ -1142,14 +1145,17 @@ File: per_distortion_SIQAD.jpg Graphic file (type bmp)
 <per_distortion_SIQAD.jpg>
 File: per_distortion_SCID.jpg Graphic file (type bmp)
 <per_distortion_SCID.jpg>
-[4]
-Underfull \hbox (badness 1661) in paragraph at lines 348--349
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 1661) in paragraph at lines 350--351
 []\TU/XBNiloofar(0)/m/n/10 یک زیرمجموعه از نمونه‌های مجموعه‌داده‌ی $[]$ را مشخص
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 []\TU/XBNiloofar(0)/m/n/10 از $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r[]; r[]; []
 []; [][]; \OT1/cmr/m/n/10 100)$ \TU/XBNiloofar(0)/m/n/10 استفاده[]
  []
@@ -1159,30 +1165,31 @@ File: per_distortion_hyper_SIQAD.jpg Graphic file (type bmp)
 File: per_distortion_hyper_SCID.jpg Graphic file (type bmp)
 <per_distortion_hyper_SCID.jpg>
 
-Underfull \hbox (badness 5217) in paragraph at lines 359--376
+Underfull \hbox (badness 5217) in paragraph at lines 361--378
 []\TU/XBNiloofar(0)/m/n/10 آموزش، فراعامل‌های بهینه، مجموعه‌ی آزمون و تعداد لای
 ه‌های[]
  []
 
 File: cross_whole.jpg Graphic file (type bmp)
 <cross_whole.jpg>
+[5] [6]
 File: cross_SCID_SIQAD_dst.jpg Graphic file (type bmp)
 <cross_SCID_SIQAD_dst.jpg>
 File: cross_SIQAD_SCID_dst.jpg Graphic file (type bmp)
 <cross_SIQAD_SCID_dst.jpg>
-(./fuse.bbl
-Underfull \hbox (badness 1675) in paragraph at lines 465--4
+ (./fuse.bbl
+Underfull \hbox (badness 1675) in paragraph at lines 467--4
 []\TU/XBNiloofar(0)/m/n/10 کردیم و دیدیم که به این مسئله در آزمایش‌های ارزیابی 
 کیفیت[]
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 465--4
+Underfull \hbox (badness 1371) in paragraph at lines 467--4
 []\TU/XBNiloofar(0)/m/n/10 است با تخریب‌های طبیعی متفاوت باشند. شاید بهتر باشد 
 که[]
  []
 
-[5] [6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
 [][]\TU/lmroman10-regular(0)/m/n/10 CISCO, “Cisco annual internet re-[]
  []
@@ -1248,22 +1255,24 @@ Underfull \hbox (badness 1014) in paragraph at lines 243--246
 ]
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 261--264
 [][]\TU/lmroman10-regular(0)/m/n/10 A. Shokrollahi, B. M.-N. Maybodi, and[]
  []
 
-) [8] (./fuse.aux)
+) [9
+
+] (./fuse.aux)
 Package rerunfilecheck Info: File `fuse.out' has not changed.
 (rerunfilecheck)             Checksum: 91D2EA6C7799988AB4BE10D08687D45E;3176.
  ) 
 Here is how much of TeX's memory you used:
- 27453 strings out of 476127
- 572449 string characters out of 5808345
- 1009276 words of memory out of 5000000
- 47720 multiletter control sequences out of 15000+600000
+ 27458 strings out of 476127
+ 572510 string characters out of 5808345
+ 1009274 words of memory out of 5000000
+ 47725 multiletter control sequences out of 15000+600000
  476315 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,15n,91p,1315b,847s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,91p,1315b,847s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on fuse.pdf (8 pages).
+Output written on fuse.pdf (9 pages).
